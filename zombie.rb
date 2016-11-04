@@ -1,4 +1,5 @@
 require 'pry'
+
 class Zombie 
 	
 	@@vida = 1
@@ -32,4 +33,7 @@ class Zombie
 	def gemir
 		puts "ahhhhhh ahhhh ahgggg"
 	end
+
 end
+
+binding.pry
