@@ -1,6 +1,11 @@
 require 'pry'
 class Zombie 
 	
+	def initialize(nombre_zombie = 'Maligno', descomposicion = 'putrefacta')
+		@nombre_zombie = nombre_zombie
+		@descomposicion = descomposicion
+	end
+	
 	def morder(nombre) 
 		@nombre = nombre
 		puts "Zombie ha mordido a #{@nombre}"
